@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Host Youtube-sync</title>
+	<script src="https://unpkg.com/peerjs@1.3.1/dist/peerjs.min.js"></script>
+	<script src="https://www.youtube.com/iframe_api"></script>
+	<script src="js/host.js" defer></script>
+</head>
+<body>
+	<p>Video/Playist URL:</p>
+	<input type="text" id="url">
+	<button id="play">Play</button>
+	<p>Your Room URL: <a id="id"></a></p>
+	<p>Shuffle: <input type="checkbox" id="shuffle"></p>
+	<div id="player"></div>
+</body>
+</html>
