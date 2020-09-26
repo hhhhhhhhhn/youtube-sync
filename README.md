@@ -1,2 +1,2 @@
 # youtube-sync
-Watch youtube videos together privately using peer-to-peer
+Watch youtube videos together using peer-to-peer
